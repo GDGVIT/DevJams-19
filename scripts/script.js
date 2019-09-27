@@ -9,6 +9,10 @@ function colorAnimate(event, color, blocknAnimate){
     document.getElementById("diag1").style.display = "none";
     document.getElementById("register").style.display = "none";
     document.getElementById("register1").style.display = "none";
+    document.getElementById("msg").style.display = "none";
+    document.getElementById("img-back").style.display = "none";
+
+
 
 
     navId.forEach( element => {

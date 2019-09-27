@@ -120,20 +120,31 @@
         <!-- Image animation -->
 
         <div class="container-fluid" id="img-top" style="position : absolute; z-index : -100;">
-            <div class="row" style="padding-top : 18vh;">
+
+            <div class="row" style="padding-top : 18vh; background: url('assets/web_grafiti.png'); background-size:cover;" id="img-back">
                 <div class="col-2">
 
                 </div>
                 <div class="col-9" style="height : 500px">
 
                     <img id="diag" src="assets/Logo.png" style="position: absolute">
-                    <button class="register" id="register">
-                            Register Now!
-                    </button>
+                    <div class="sm-col-12" style="text-align : left; margin-top : 330px; padding-left : 190px">
+                        <a rel="noreferrer" href="https://ideathon19.hackerearth.com" target="_blank" style="text-decoration : none">
+                            <button class="register" id="register">
+                                Register Now!
+                            </button>
+                        </a>
+                    </div>
+                   
                     <img id="diag1" src="assets/Ideathon@4x.png" style="position: absolute">
-                    <button class="register1" id="register1">
-                            Register Now!
-                    </button>
+                    <div class="sm-col-12" style="text-align : left; margin-top : -60px; padding-left : 240px; margin-left: 330px;">
+                        <a rel="noreferrer" href="https://devjams.hackerearth.com" target="_blank" style="text-decoration : none">
+                            <button class="register1" id="register1">
+                                Register Now!
+                            </button>
+                        </a>
+                    <p style="font-weight: bold; margin-top : 10px; margin-left: 10px;" id="msg"> Only for freshers</p>
+                    </div>
                 </div>
 
                 <div class="col-2">
@@ -148,7 +159,7 @@
             <div class="row" style="padding-top : 18vh;">
                 <div class="col-2" id="home-navbar">
                     <div class="nav-box" style="border-top-color : black">
-                        <p class="nav-box-heading" onclick="colorAnimate(event, 0, 'home-top')">
+                        <p class="nav-box-heading" onclick="colorAnimate(event, 0, 'home-content')">
                             Home
                         </p>
                     </div>

@@ -109,6 +109,31 @@
         position : absolute
     }
     
+    /* Register button*/
+    .register{
+        outline: none;
+        border: 2px solid #FE524D;
+        border-radius: 7px;
+        color: white;
+        font-size: 18px;
+        font-weight: bolder;
+        background: #FE524D;
+        padding: 15px;
+        box-shadow: 0 0 6px 0 rgba(184, 185, 184, 0.6);
+    }
+    .register1{
+        outline: none;
+        border: 2px solid #FE524D;
+        border-radius: 7px;
+        color: white;
+        font-size: 18px;
+        font-weight: bolder;
+        background: #FE524D;
+        padding: 15px;
+        box-shadow: 0 0 6px 0 rgba(184, 185, 184, 0.6);
+    }
+    
+    
     /* Timeline Page */
     
     .timeline-box {
