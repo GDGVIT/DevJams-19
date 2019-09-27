@@ -6,6 +6,11 @@ let mainPageId = ["home-top", "about-us-top", "hackathon-top", "timeline-top", "
 function colorAnimate(event, color, blocknAnimate){
     document.getElementById("diag").style.animation = "diagonal 0.3s linear";
     document.getElementById("diag").style.animationFillMode = "forwards";
+    document.getElementById("diag1").style.display = "none";
+    document.getElementById("register").style.display = "none";
+    document.getElementById("register1").style.display = "none";
+
+
     navId.forEach( element => {
         if (element == event.target.classList[1]){
             let ele = document.getElementsByClassName(element);
