@@ -147,7 +147,7 @@
 
   }
   /* Register buttons */
-  .register,.register1{
+  .register {
     outline: none;
     border: 2px solid #FE524D;
     border-radius: 7px;
