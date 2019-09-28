@@ -43,7 +43,7 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-127563973-2');</script>
-    <title>Devjams'19</title>
+    <title>DevJams'19</title>
 
 </head>
 
@@ -184,7 +184,10 @@
                     </div>
 
                 </div>
-                <div class="col-9" id="home-content"></div>
+                <div class="col-9" id="home-content">
+                    <!-- <div id="back-img" style="background: url('assets/web_grafiti.png'); background-size: cover"></div> -->
+                    <!-- <img src="assets/web_grafiti.png" style="background-size: cover"> -->
+                </div>
                 <!-- <div class="col-1" id="home-img">
                     <div class="nav-box-right">
                         <p class="nav-box-right-heading" style="cursor : pointer">
@@ -197,7 +200,7 @@
 
 
         <div class="container-fluid" id="main-top">
-                <div class="row" style="padding-top : 18vh;">
+                <div class="row" style="padding-top : 18vh;background: url('assets/web_grafiti.png'); background-size: cover;background-position: center;">
                     <div class="col-2" id="main-navbar">
                             <div class="nav-box" style="border-top-color : #000000">
                                     <p class="nav-box-heading main" onclick="colorAnimate(event, 4, 'main-top')">
@@ -241,15 +244,33 @@
                         </div>
     
                     </div>
-                    <div class="col-12" id="main-content">
+                    <div id="main-content" style="width: 59vw">
     
-                        <div class="row">
+                        <!-- <div class="row"> -->
 
-                            <div class="col-12">
-                                // put two buttons here (Laptop view)
+                            <div class="col-10" >
+                                    <img id="diag" src="assets/Logo.png" style="position: absolute">
+                                    <div class="col-12" style="text-align : left;  padding-left : 198px; margin-top: 220px;">
+                                        <a rel="noreferrer" href="https://ideathon19.hackerearth.com" target="_blank" style="text-decoration : none">
+                                            <button class="register" id="register">
+                                                Register Now!
+                                            </button>
+                                        </a>
+                                    </div>
+                                   
+                                    <img id="diag1" src="assets/Ideathon@4x.png" style="position: absolute">
+                                    <div class="col-12" style="text-align : left; padding-left : 190px; margin-left: 448px; margin-top: -200px;">
+                                        <a rel="noreferrer" href="https://devjams.hackerearth.com" target="_blank" style="text-decoration : none">
+                                            <button class="register1" id="register1" style="position: absolute; top: 100px;left: 228px;">
+                                                Register Now!
+                                            </button>
+                                        </a>
+                                    <p style="font-weight: bold; margin-top : 10px; position: relative; top: 200px;left: 90px;" id="msg"> Only for freshers</p>
+                                    </div>
+                                 <!-- put two buttons here (Laptop view)  -->
                             </div>
 
-                        </div>
+                        <!-- </div> -->
     
                     </div>
                     <div  id="main-img"></div>
@@ -398,7 +419,7 @@
                         </div>
                         <div class="col-12">
                             <p class="content">
-                                As Einstein said “The only source of knowledge is experience”, Devjams 2019 also gives
+                                As Einstein said “The only source of knowledge is experience”, DevJams 2019 also gives
                                 you a
                                 chance to work and innovate under the guidance of highly knowledgeable and experienced
                                 mentors.
@@ -439,7 +460,7 @@
                         </div>
                         <div class="col-3 timeline-box" style="height : 0; border-color : transparent">
                             <div class="timeline-circle-left-top" style="background-color : #4E96FC"></div>
-                            <p style="transform : translateY(-50%); font-size : 12px">Develop, Design, Devjams</p>
+                            <p style="transform : translateY(-50%); font-size : 12px">Develop, Design, DevJams</p>
                         </div>
                     </div>
                 </div>
@@ -1109,6 +1130,9 @@
 
         <!-- Image animation -->
         <img id="sm-diag" src="assets/Logo.png">
+        <!-- <img id="sm-diag1" src="assets/web_grafiti.png"> -->
+
+        <!-- <div id="sm-diag1"  style=" background: url('assets/web_grafiti.png');"></div> -->
 
         <!-- Navbar scolling -->
         <div class="sm-card" id="nav-top">
@@ -1163,10 +1187,32 @@
                 <!-- Main -->
 
                 <div id="sm-main-top">
+                    <div class="sm-col-12">   
+                        <img id="diag" src="assets/Logo.png" style="position: absolute; width: 170px; margin-left: 70px">
+                    </div>
+                        <div class="sm-content-cover">
+                            <div class="sm-col-12 sm-content" style="text-align : left; margin-top: 30px; margin-left: 70px;" >
+                                <a rel="noreferrer" href="https://ideathon19.hackerearth.com" target="_blank" style="text-decoration : none">
+                                    <button class="register" id="register">
+                                        Register Now!
+                                    </button>
+                                </a>
+                            </div> 
+                        </div>
                     <div class="sm-col-12">
-                      //Update registration buttons here
-                      </div>
-                      // follow the heading and the content class pattern for uniformity
+                        <img id="diag1" src="assets/Ideathon@4x.png" style="position: absolute; width: 170px; margin-left: 70px;">
+                    </div>
+                    <div class="sm-content-cover">
+                        <div class="sm-col-12 sm-content" style="text-align : left; margin-top: 55px; margin-left: 70px;">
+                            <a rel="noreferrer" href="https://devjams.hackerearth.com" target="_blank" style="text-decoration : none">
+                                <button class="register1" id="register1">
+                                    Register Now!
+                                </button>
+                            </a>
+                            <p style="font-weight: bold; margin-top : 10px; margin-left: 10px;" id="msg"> Only for freshers</p>
+                        </div>
+                    </div>
+                      <!-- follow the heading and the content class pattern for uniformity -->
                 </div>
             
 
@@ -1216,16 +1262,17 @@
                 <img src="./assets/Hackathon.png" style="width: 170px">
             </div>
             <div class="sm-content-cover">
-                <div class="sm-col-12 sm-content" <p>
-                    The 36-hour hackathon provides a platform to the young, talented and aspiring coders, developers and
-                    designers to showcase their inventiveness and creativity. DevJams by DSC VIT is a one-stop
-                    destination which brings to you plentiful opportunities to improve your skill set and to build
-                    something new and exemplary.
+                <div class="sm-col-12 sm-content">
+                     <p>
+                        The 36-hour hackathon provides a platform to the young, talented and aspiring coders, developers and
+                        designers to showcase their inventiveness and creativity. DevJams by DSC VIT is a one-stop
+                        destination which brings to you plentiful opportunities to improve your skill set and to build
+                        something new and exemplary.
                     </p>
                 </div>
                 <div class="sm-col-12 sm-content">
                     <p>
-                        As Einstein said “The only source of knowledge is experience”, Devjams 2019 also gives you a
+                        As Einstein said “The only source of knowledge is experience”, DevJams 2019 also gives you a
                         chance
                         to work and innovate under the guidance of highly knowledgeable and experienced mentors. Become
                         a

@@ -121,6 +121,16 @@
       left: 50%;
       transform: translate(-50%);
   }
+  #sm-diag1{
+    width: auto;
+    top: -20%;
+    height: 208px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    /* background: url('assets/web_grafiti.png'); */
+    background-size: cover;
+  }
 
   /* Main styling */
 
@@ -135,6 +145,18 @@
       cursor: pointer;
       width : auto
 
+  }
+  /* Register buttons */
+  .register,.register1{
+    outline: none;
+    border: 2px solid #FE524D;
+    border-radius: 7px;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    background: #FE524D;
+    padding: 15px;
+    box-shadow: 0 0 6px 0 rgba(184, 185, 184, 0.6);
   }
 
   /* Timeline */
