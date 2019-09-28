@@ -133,6 +133,7 @@
       font-weight: bold;
       color: lightgray;
       cursor: pointer;
+      width : auto
 
   }
 
@@ -279,7 +280,8 @@
   #sm-sponsors-top, 
   #sm-contact-us-top, 
   #sm-downloads-top,
-  #sm-prev-events-top {
+  #sm-prev-events-top,
+  #sm-main-top {
       display: none
   }
 
